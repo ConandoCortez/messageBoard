@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+@import url('https://fonts.googleapis.com/css?family=Ravi+Prakash');
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 80%;
+    margin: 10px auto;
+    background-color: #d5b6e8
+}
+h1{
+    font-family: 'Tangerine' , serif;
+    font-size: 64px;
+    text-shadow: 4px 4px 4px #aaa;
+}
+.messages{
+    font-family: 'Fredericka the Great', cursive;
+}
+.comments{
+    font-family: 'Ravi Prakash', cursive;
+    margin-left: 50px;
+    padding-bottom: 10px;
+}
+.text_field, .comment_field, button{
+    width: 100%;
+    border-radius: 5px;
+    height: 20px;
+    margin: 5px
+}
+.comment_field{
+    height: 100px;
+    resize: none;
+}
+button{
+    height: auto;
+    padding: 10px;
+    border: 1px solid blue;
+    background-color: white;
+    color: blue;
+}
